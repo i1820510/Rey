@@ -13,10 +13,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".mi_carta"></activity>
-        <activity android:name=".ListProducts" />
+        <activity android:name=".ListProducts"></activity>
+        <activity android:name=".Login" />
 
-        <activity android:name=".Login"></activity>
+        <activity android:name=".mi_carta"></activity>
 >
         <activity android:name=".MainActivity">
             <intent-filter>

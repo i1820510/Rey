@@ -13,17 +13,36 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:padding="3dp"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="36dp"
             android:background="#F2A007"
             android:gravity="center">
 
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/icono_menu"
+                />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mi carta"
-                android:textColor="#F2F2F2"/>
+            <LinearLayout
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="#F2A007"
+                android:gravity="center"
+                android:textAlignment="center">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mi carta    "
+                    android:textSize="20dp"
+                    android:textColor="#F2F2F2"/>
+            </LinearLayout>
         </LinearLayout>
 
          <LinearLayout
